@@ -8,7 +8,7 @@
   --clr-neutral--100: hsl(0, 0%, 98%);
   --clr-neutral--300: hsl(229, 6%, 66%);
   --clr-neutral--500: hsl(234, 12%, 34%);
-  --fs: 15px;
+  --fs: 0.9375rem;
   --ff-primary: 'Poppins', sans-serif;
   --br: 0.35em;
 }
@@ -29,4 +29,16 @@ p {
   margin: 0;
   padding: 0;
   font-family: var(--ff-primary);
+}
+
+/* ----- Body ----- */
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs);
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-neutral--300);
+  background-color: var(--clr-neutral--100);
+  font-weight: 200;
 }
