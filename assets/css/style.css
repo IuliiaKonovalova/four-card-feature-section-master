@@ -52,8 +52,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 6em 3em;
-  max-height: 20rem;
+  padding: 6em 2em;
+  max-height: 27rem;
   color: var(--clr-neutral--500);
   text-align: center;
 }
@@ -199,8 +199,6 @@ body {
 
   .header__title {
     font-size: 1.8rem;
-    font-weight: 600;
-    padding-bottom: 0.5em;
   }
 
   .main {
@@ -213,5 +211,24 @@ body {
   .card {
     margin-bottom: 2em;
     max-width: 23rem;
+  }
+}
+
+@media screen and (max-width: 378px) {
+
+  .header__incentive {
+    font-size: 1.4rem;
+  }
+
+  .header__title {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    height: unset;
+  }
+
+  .card__picture {
+    padding-top: 0.5em;
   }
 }
