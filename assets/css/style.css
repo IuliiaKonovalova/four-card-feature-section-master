@@ -1,3 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
+:root {
+  --clr-primary--100: hsl(212, 86%, 64%);
+  --clr-primary--300: hsl(180, 62%, 55%);
+  --clr-primary--500: hsl(34, 97%, 64%);
+  --clr-primary--900: hsl(0, 78%, 62%);
+  --clr-neutral--100: hsl(0, 0%, 98%);
+  --clr-neutral--300: hsl(229, 6%, 66%);
+  --clr-neutral--500: hsl(234, 12%, 34%);
+  --fs: 15px;
+  --ff-primary: 'Poppins', sans-serif;
+  --br: 0.35em;
+}
