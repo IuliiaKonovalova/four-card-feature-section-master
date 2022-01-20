@@ -6,7 +6,7 @@
   --clr-primary--500: hsl(34, 97%, 64%);
   --clr-primary--900: hsl(0, 78%, 62%);
   --clr-neutral--100: hsl(0, 0%, 98%);
-  --clr-neutral--300: hsl(229, 6%, 66%);
+  --clr-neutral--300: #a3a5ae;
   --clr-neutral--500: hsl(234, 12%, 34%);
   --fs: 0.9375rem;
   --ff-primary: 'Poppins', sans-serif;
@@ -91,9 +91,9 @@ body {
   flex-direction: column;
   padding: 2em;
   position: relative;
-  box-shadow: 0px 7px 29px -11px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 0px 7px 29px -11px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0px 7px 29px -11px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 7px 29px -11px var(--clr-neutral--300);
+  -webkit-box-shadow: 0px 7px 29px -11px var(--clr-neutral--300);
+  -moz-box-shadow: 0px 7px 29px -11px var(--clr-neutral--300);
   text-align: left;
 }
 
