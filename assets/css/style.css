@@ -36,8 +36,10 @@ p {
 body {
   font-family: var(--ff-primary);
   font-size: var(--fs);
+  max-width: 70rem;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   color: var(--clr-neutral--300);
   background-color: var(--clr-neutral--100);
   font-weight: 200;
@@ -68,4 +70,13 @@ body {
 
 .header__description {
   letter-spacing: 0.045rem;
+}
+
+/* ----- Main ----- */
+
+.main {
+  max-width: 90rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2 1fr);
 }
