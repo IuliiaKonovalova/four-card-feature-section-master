@@ -195,7 +195,7 @@ body {
   font-weight: 600;
 }
 
-@media screen and (max-width: 1270px) {
+@media all and (max-width: 1270px) {
 
   .header__incentive {
     font-size: 1.7rem;
@@ -218,7 +218,7 @@ body {
   }
 }
 
-@media screen and (max-width: 378px) {
+@media all and (max-width: 378px) {
 
   .header__incentive {
     font-size: 1.4rem;
